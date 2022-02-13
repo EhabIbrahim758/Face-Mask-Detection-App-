@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Face Mask Detection Page</title>
+        <link rel="stylesheet" href = "style.css"/>
+    </head>
+    
+    <body> 
+    
+        <h1 class="heading">Welcome To Face Mask Detection API</h1>
+        <p class="paragraph">You can consume our service here to detect peoples with and without masks in images, 
+            videos and also in real time camera videos
+        </p>
+
+        
+            <a href={{url_for('image')}}>
+                <button class="images" type="button">Detection with images</button>
+            </a>    
+        
+            <a href="video.html">
+                <button class="videos" type="button">Detection with videos</button>
+            </a>
+        
+            <a href="camera.html">
+                <button class="camera" type="button">Detection with real time camera video</button>
+            </a>
+    </body>
+
+</html>    
