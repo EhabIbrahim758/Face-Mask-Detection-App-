@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Detection with images</title>
+        <link rel="stylesheet" href="static\styles\image.css" />
+    </head>
+
+    <body>
+        <h1>Face Mask Detection With Images</h1>
+
+        <form action="/upload_image", method="POST" enctype = "multipart/form-data">
+            <input type="file" id="filename" name="filename">
+            <input type="submit">
+        </form>
+
+        <div class="anchor">
+            <a href={{url_for('index')}}>
+                <button type="button">Return Back!</button>
+            </a>
+        </div>
+
+    </body>
+
+
+</html>

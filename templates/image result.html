@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Prediction</title>
+        <link rel="stylesheet" href="static\styles\image result.css">
+    </head>
+
+    <body>
+
+        <h1>Prediction with images</h1>
+
+        <img src={{url_for('static', filename=img_data)}}>
+        <div class="anchor">
+            <a href={{url_for('image')}}>
+                <button type="button">Return Back!</button>
+            </a>
+        </div>
+
+        <div>
+            <a href={{url_for('index')}}>
+                <button type="button">Return to First Page!</button>
+            </a>
+        </div>
+
+    </body>
+
+
+</html>

@@ -1,0 +1,50 @@
+h1{
+   padding-top: 100px;
+
+}
+
+body {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+form {
+    padding-top: 100px;
+}
+input {
+  content: 'Select some files';
+  display: inline-block;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+
+a {
+    text-align: center;
+    padding-top: 20px;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: 1px solid #999;
+  color: white;
+  border-radius: 3px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.anchor {
+
+    margin-top: 20px;
+}

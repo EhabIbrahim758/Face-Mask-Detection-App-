@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Detection with videos</title>
+        <link rel="stylesheet" href="static\styles\video.css">
+    </head>
+
+    <body>
+        <h1>Face Mask Detection With videos</h1>
+
+        <form action="/upload_video", method="POST">
+            <input type="file" id="filename" name="filename">
+            <input type="submit">
+        </form>
+
+        <div class="anchor">
+            <a href={{url_for('index')}}>
+                <button type="button">Return Back!</button>
+            </a>
+        </div>
+    </body>
+
+
+</html>

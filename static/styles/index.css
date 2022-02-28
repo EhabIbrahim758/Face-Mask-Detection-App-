@@ -1,0 +1,48 @@
+h1{
+   padding-top: 100px;
+
+}
+
+body {
+    background-color: aliceblue
+}
+
+.paragraph1 {
+    color: brown;
+    width: 450px;
+    height: 100px;
+    text-align: center;
+    padding-left: 550px;
+    font-size: 20px;
+    padding-top: 50px;
+
+}
+.heading {
+    background-color: gainsboro;
+}
+
+body {
+    text-align: center;
+}
+
+
+.camera, .videos, .images {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.paragraph2 {
+    width: 450px;
+    height: 50px;
+    text-align: center;
+    padding-left: 550px;
+    font-size: 20px;
+    padding-top: 50px;
+
+}
+
